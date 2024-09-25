@@ -1,6 +1,6 @@
 .header {
-    height: 293px;
-    padding: 92px 51px 96px;
+    
+    padding: 92px 51px 92px;
     display: grid;
     grid-template-columns: 0.9fr 105px 1fr;
     align-items: center;
@@ -66,7 +66,7 @@
 .cover {
     position: relative;
     padding: 165px 50px 50px;
-    height: 757px;
+    min-height: 757px;
     width: 100%;
     background: #228859 url("../images/cover.jpg") no-repeat center / cover;
     color: #FFF;
@@ -141,6 +141,7 @@
     color: #FFF;
     text-transform: uppercase;
     padding: 12px 32px;
+    cursor: pointer
 }
 
 .lots {
@@ -161,12 +162,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
-    padding-top: 20px;
+    padding-top: 25px;
+    padding-right: 25px;
+    gap: 25px;
+}
+
+.card-link {
+    text-decoration: none;
 }
 
 .card {
     width: 334px;
-    height: 563px;
+    min-height: 563px;
     color: #FFF;
     position: relative;
     display: flex;
@@ -209,7 +216,7 @@
 
 .lots__look-more-link {
     display: block;
-    margin: 33px 0 0 40px;
+    margin: 27px 0 0 40px;
     font-size: 20px;
     text-underline-position: under;
 }
@@ -241,7 +248,7 @@
 }
 
 .about__title {
-    padding: 103px 0px 100px 15px;
+    padding: 100px 0px 100px 15px;
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
@@ -261,6 +268,8 @@
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 53px;
+    padding-bottom: 50px;
 
 }
 
